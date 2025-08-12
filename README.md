@@ -22,3 +22,9 @@ I was inspired by Cryptopanic.com, which aggregates RSS feeds from many websites
 3. Can select news items to export to markdown.
 4. Can save selected news items.
 5. Can specify refresh interval.
+
+## How it works
+
+1. When it launches, it will create an SQLite database in the directory it is launched from. (That's where your settings are saved to.)
+2. Please launch it from the same directory, so that it can load up the settings from the database.
+3. If you launch it from another directory, it won't be able to see your database. Then you won't be able to see the feed that you've customized.
